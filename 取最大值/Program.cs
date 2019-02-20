@@ -19,7 +19,7 @@ namespace 取最大值
                 }
             }
             Console.WriteLine(max);
-           
+            Console.WriteLine(@"飞哥最""帅""");
             Console.Read();
 
 
