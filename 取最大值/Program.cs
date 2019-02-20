@@ -21,10 +21,21 @@ namespace 取最大值
             Console.WriteLine(max);
 
             Console.WriteLine(@"飞哥最""帅""");
-            //genggai
+
+            string firstname = "Jin";
+            string secondname = "LuWei";
+
+            //拼接
+            Console.WriteLine(firstname+secondname);
+            //嵌入
+            Console.WriteLine("姓名为：{0}{1}",firstname,secondname);
+            Console.WriteLine($"姓名为：{firstname}{secondname}");
+            //截取
+            Console.WriteLine("JinLuWei".Substring(3,5));
+            //替换
+            Console.WriteLine("luwei8岁".Replace("8","18"));
+
             Console.Read();
-
-
         }
     }
 }
